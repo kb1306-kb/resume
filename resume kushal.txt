@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kushal Bothra - Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e293b;
+      --accent: #3b82f6;
+      --bg: #f8fafc;
+      --text: #334155;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    nav {
+      background: var(--primary);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: var(--accent);
+      color: white;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--primary);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div><strong>Kushal Bothra</strong></div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <h1>Kushal Bothra</h1>
+    <p>Web Developer | Event Manager | Leader</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I’m a highly driven individual passionate about event management, leadership, and brand building. My experience spans marketing, cultural coordination, and entrepreneurship, combined with a love for cricket at the national level.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>IIM Bangalore</strong> – BBA DBE, First Year</p>
+    </div>
+    <div class="card">
+      <p><strong>DPS Bhopal</strong> – Class 12th – 92%</p>
+    </div>
+    <div class="card">
+      <p><strong>DPS Bhopal</strong> – Class 10th – 89%</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Communication</li>
+        <li>Video Editing</li>
+        <li>Research and Planning Events</li>
+        <li>Leadership</li>
+        <li>Brand Building</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="card">
+      <p><strong>Chairperson</strong> – Umang Cultural Fest, NMCCE College, Mumbai</p>
+    </div>
+    <div class="card">
+      <p><strong>Marketing Intern</strong> – MTC Paras and Ranwara Naturals</p>
+    </div>
+    <div class="card">
+      <p><strong>Founder</strong> – Evara Events (Event Management Company)</p>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="card">
+      <p><strong>National Level Cricket Player</strong></p>
+      <p>Played for Vidarbha U-16 Team in Vijay Hazare Trophy 2019</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: kushalbothra@example.com</p>
+      <p>Phone: +91-1234567890</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kushal Bothra</p>
+  </footer>
+</body>
+</html>
